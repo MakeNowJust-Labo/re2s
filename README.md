@@ -1,6 +1,6 @@
-# template-scala
+# RE2/S
 
-> MakeNowJust-Labo's Scala project template.
+> RE2/J Scala wrapper.
 
 ## License
 
