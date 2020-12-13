@@ -38,7 +38,7 @@ lazy val root = project
     // Dependencies:
     libraryDependencies += "com.google.re2j" % "re2j" % "1.5",
     // Settings for test:
-    libraryDependencies += "io.monix" %% "minitest" % "2.9.0" % Test,
+    libraryDependencies += "io.monix" %% "minitest" % "2.9.1" % Test,
     testFrameworks += new TestFramework("minitest.runner.Framework"),
     doctestTestFramework := DoctestTestFramework.Minitest,
     doctestMarkdownEnabled := true,
