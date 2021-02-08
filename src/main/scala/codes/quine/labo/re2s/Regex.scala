@@ -2,10 +2,10 @@
 
 package codes.quine.labo.re2s
 
-import scala.collection.AbstractIterator
-
 import com.google.re2j.Matcher
 import com.google.re2j.Pattern
+
+import scala.collection.AbstractIterator
 
 class Regex private[re2s] (val pattern: Pattern, groupNames: String*) extends Serializable { self =>
   import Regex._
